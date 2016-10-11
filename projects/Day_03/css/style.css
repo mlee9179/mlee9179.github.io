@@ -1,7 +1,49 @@
 body{
-	/*배경이미지; 이미지설정;*/
-	background:url("../images/leading-24.png");
+	/* 가운데 정렬 */
+	/* 모니터 해상도 */
+	width: 960px;
+	
+	/* margin: t r b l; (t,b/r,l) */
+	margin: 0 auto;
+	
+	/* mt0 + mb0 + tab */
+	/*margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;*/
+	
+	/* 래딩(Leading) 간격을 패턴으로 배경이미지로 그림 */
+/*	background:url("../images/leading-24.png");*/
+	
+	/* 글자 모양(글꼴) */
+	font-family: "Spoqa Han Sans";
+	
+	/* 행간 line height */
+	line-height: 1.5;
+	
+	/* 글자 사이 간격 letter spacing 나누기 1000em */
+	letter-spacing: -0.04em;
+	
 }
-h1 {
+
+/* 멀티 컬럼 디자인 */
+div {
+	margin-top: 9em;
+	/* 단 갯수 */
+	column-count: 2;
+	/* 단 gap = gutter */
+	column-gap: 20px;
+}
+
+/* Paragraph (단락) 디자인 */
+p {
+	/* 글자 색상 */
+	color: #2c2724;
+	/* 폰트 크기 */
 	font-size: 16px;
+	/* 행간 */
+	line-height: 1.5;
+	/* 폰트 여백 */
+	margin: 0;
+	margin-bottom: 1.5em;
 }
