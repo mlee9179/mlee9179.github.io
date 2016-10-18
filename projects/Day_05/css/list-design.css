@@ -1,0 +1,21 @@
+body {
+	font-family: Spoqa Han Sans;
+}
+
+.note-list li {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 17px;
+	background: url(../images/note-list.png) no-repeat;
+	background-position: 0 8px;
+	list-style-type: none;
+}
+
+.color-numbering {
+	padding-left: 1em;
+	color: #ddb989;
+}
+
+.color-numbering span {
+	color: #000;
+}
