@@ -1,0 +1,110 @@
+/* rem은 root em */
+html {
+	/*font-size: 16px;*/
+	font-size: 10px; /* 계산을 용이하게 하기 위함 */
+}
+
+/* 브라우저 기본 스타일 초기화 */
+body {
+	margin: 0;
+}
+
+/* 사용자 정의 스타일 오버라이팅(덮어쓰기) */
+/* 디자인 = 설계 */
+
+/* 본문 설계(Design) */
+body {
+	font-family: "Spoqa Han Sans", Dotum, Gulim, Sans-serif;
+	/* 글자 크기 */
+	font-size: 1.6rem; /* 16px */
+	/* 글자 줄 사이 간격 */
+	line-height: 2.4rem; /* 24px */
+	/* 글자 색상*/
+	color: #2c2724;
+	background: url("../images/leading-24.png");
+	letter-spacing: -0.04em; 
+}
+
+body {
+		width: 840px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+
+p {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 2.4rem;
+}
+
+/* 제목 설계 */
+h6 {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	margin-top: 0;
+	margin-bottom: 2.4rem;
+}
+
+h5 {
+	font-size: 2rem; /* 1*1.25em */
+	line-height: 3rem;
+	margin-top: 0;
+	margin-bottom: 2.4rem;
+}
+
+h4 {
+	font-size: 2.5rem;
+	margin-top: 0;
+	line-height: 3.75rem;
+	margin-bottom: 2.4rem;
+}
+
+h3 {
+	font-size: 3.125rem;
+	margin-top: 0
+	line-height: 4.6875rem;
+	margin-bottom: 2.4rem;
+}
+
+h2 {
+	font-size: 3.90625rem;
+	margin-top: 0;
+	line-height: 5.859375rem;
+	margin-bottom: 2.4rem;
+}
+
+h1 {
+	font-size: 4.8828125rem;
+	margin-top: 0;
+	line-height: 7.32421875rem;
+	margin-bottom: 2.4rem;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 200;
+}
+
+
+/* em 단위 의 문제점
+* Equal M 을 말하며, 인쇄 환경에서 사용되던 단위
+* 웹 환경에서 em을 사용하기 어려운 이유는
+* em은 자신(요소)을 포함하는 상위 요소에 설정된
+* 글자 크기에 상대적이기 때문이다. 이 말인즉슨,
+* 페이지 전체적으로 글자 크기를 고르게 유지하기 어렵다는 것을 뜻한다.
+* 뿐만 아니라, 글자 크기가 아니 공간의 크기 또한 em 단위를
+* 사용한다면 해당 공간의 기준이 되는 em은 자신(요소)의 글자 크기가 된다.
+
+* 상위 요소(글자 크기)
+* 	하위 요소(상위 요소 글자 크기에 영향을 받는다.)
+* 		공간 크기(자신(하위 요소)의 글자 크기에 영향을 받는다.)
+*
+* em 단위의 문제점을 극복하기 위해 등장한 단위는 바로 rem
+* rem = root em
+* HTML 문서의 뿌리 (근본)가 되는 요소는? <html>
+* 
+*
+*/
+
+
