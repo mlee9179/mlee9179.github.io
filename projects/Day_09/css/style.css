@@ -43,7 +43,11 @@ body {
 .col-11 { width:880px; }
 .col-12 { width:960px; }
 
-
+.row::after {
+	content: '';
+	display: block;
+	clear: both;
+}
 
 
 
