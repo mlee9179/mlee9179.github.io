@@ -1,6 +1,7 @@
 body{
-	margin: 0;
+
 	width: 960px;
+	height: 1950px;
 	background: url("../images/960 Grid System.png") no-repeat center;
 	justify-content: center;
 	align-items: center;
