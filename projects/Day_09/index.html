@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta charset="UTF-8">
+	<title>CSS Linear Gradient - Draw Grid System 960, 12, 80</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.box {
+			height: 100px;
+			background: #333;
+			color: #fff;
+		}
+		.box:first-child {background: #320123;}
+		.box:nth-child(2n) {background: #ff09cf;}
+		.box:nth-child(3n) {background: #234190;}
+	</style>
+</head>
+<body class="show-grid">
+
+	<div class="grid-container">
+		<div class="row">
+			<div class="box col-1">column 1</div>
+			<div class="box col-2">column 2</div>
+			<div class="box col-3">column 3</div>
+			<div class="box col-4">column 4</div>
+			<div class="box col-2">column 2</div>
+			<!-- <div class="col-5">column 5</div>
+			<div class="col-6">column 6</div>
+			<div class="col-7">column 7</div>
+			<div class="col-8">column 8</div>
+			<div class="col-9">column 9</div>
+			<div class="col-10">column 10</div>
+			<div class="col-11">column 11</div>
+			<div class="col-12">column 12</div> -->
+		</div>
+	</div>
+
+</body>
+</html>
+
