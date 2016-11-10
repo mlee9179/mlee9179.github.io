@@ -88,19 +88,19 @@ img {
 
 .web-banner-wave img{
 	position: absolute;
-	top: 160px;
-	left: 8px;
+	bottom: 92px;
+	left: 4px;
 }
 
 .web-banner-monkeys img{
 	position: absolute;
-	top: 80px;
-	left: 10px;
+	bottom: 24px;
+	left: 11px;
 }
 
 .web-banner-monkey img{
 	position: absolute;
-	right: 10px;
+	right: 12px;
 	top: 28px;
 }
 
@@ -113,7 +113,7 @@ img {
 .web-banner-text img{
 	position: absolute;
 	top: 32px;
-	left: 130px;
+	left: 125px;
 }
 
 /* 웹 배너 */
