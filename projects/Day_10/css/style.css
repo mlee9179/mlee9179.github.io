@@ -33,11 +33,11 @@ h6 {
 	margin-bottom: 20px;
 }
 
-p {
+p.text-wrap {
 	margin-bottom: 57px;
 	margin-left: auto;
 	width: 257px;
-	/* margin: 0 auto; */
+	margin: 0 auto;
 	line-height: 1.25;
 	font-size: 1em;
 	margin-right: auto;
@@ -54,6 +54,26 @@ p {
 	height: 100vh;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+
+.oil-painting-wrapper{
+	position: relative;
+
+}
+
+.oil-painting p {
+	position: absolute;
+	left: 245px;
+	top: -49px;
+	margin: 0;
+	font-family: "Spoqa Han Sans";
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	color: #fff;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+	text-transform: uppercase;
 }
 
 /* command + shift + install package -> hex to hsla */
@@ -89,6 +109,7 @@ p {
 	display: block;
 	clear: both;
 }
+
 
 
 

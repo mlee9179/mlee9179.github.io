@@ -1,0 +1,14 @@
+p.oil-painting {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    text-transform: uppercase;
+}
+
+.row.img-box {
+    margin-top: 40px;
+}
