@@ -72,11 +72,14 @@ img {
 /* 부모, 자식 */
 
 /* 웹 배너*/
-/*
+
 .web-banner-wrapper {
 	position: relative;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;	
+	margin-top: 125px;
+	width: 800px;
+	height: 320px;
 }
 
 .web-banner-bg img{
@@ -85,14 +88,20 @@ img {
 
 .web-banner-wave img{
 	position: absolute;
+	top: 160px;
+	left: 8px;
 }
 
 .web-banner-monkeys img{
 	position: absolute;
+	top: 80px;
+	left: 10px;
 }
 
 .web-banner-monkey img{
 	position: absolute;
+	right: 10px;
+	top: 28px;
 }
 
 .web-banner-logo img{
@@ -104,7 +113,8 @@ img {
 .web-banner-text img{
 	position: absolute;
 	top: 32px;
-}*/
+	left: 130px;
+}
 
 /* 웹 배너 */
 
