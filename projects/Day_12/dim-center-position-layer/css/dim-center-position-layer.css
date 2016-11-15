@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+}
+
+/* modal */
+.modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 100;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 0 10px hsla(0,0%,0%,.25);
+}
+
+/* dim */
+.dim {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: hsla(0,0%,0%,0.6);
+}
+
+/* cat */
+.cat {
+	height: 100vh;
+}
+
+/* each control cat */
+.cat-one {
+	background: url("../images/cat-01.jpg");
+}
+
+.cat-two {
+	background: url("../images/cat-02.jpg");
+}
+
+.cat-three {
+	background: url("../images/cat-03.jpg.jpg");
+}
+
+.cat-four {
+	background: url("../images/cat-04.jpg");
+	height: 200vh;
+}
+
+.cat-five {
+	background: url("../images/cat-05.jpg");
+	height: 200vh;
+}
