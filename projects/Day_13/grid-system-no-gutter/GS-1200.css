@@ -1,0 +1,109 @@
+/*
+페이지 폭 1200px
+컬럼 개수
+
+*/
+
+.body {
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.show-grid {
+  background: linear-gradient(transparent 9px, hsla(339, 100%, 19%, 0.7) 9px);
+  background-size: 1px 10px;
+}
+
+.show-grid .container {
+  position: relative;
+  height: 300vh;
+}
+
+.show-grid .container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, hsla(3, 99%, 62%, 0.5) 50%, hsla(48, 100%, 55%, 0.5) 50%);
+  background-size: 160px 1px;
+}
+
+/* row module ---------------------------------------------------------- */
+.row::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* column module ---------------------------------------------------------- */
+[class*="col-"] { float: left; }
+
+.col-1 { width: 120px; }
+.col-2 { width: 270px; }
+.col-3 { width: 420px; }
+.col-4 { width: 570px; }
+.col-5 { width: 720px; }
+.col-6 { width: 870px; }
+.col-7 { width: 990px; }
+.col-8 { width: 1110px; }
+.col-9 { width: 1230px; }
+.col-10 { width: 1350px; }
+.col-11 { width: 1470px; }
+.col-12 { width: 1590px; }
+
+
+/* push module ---------------------------------------------------------- */
+[class*="push-"] {position: relative;}
+
+.push-1  { left: 120px;  }
+.push-2  { left: 270px;  }
+.push-3  { left: 420px;  }
+.push-4  { left: 570px;  }
+.push-5  { left: 720px;  }
+.push-6  { left: 870px;  }
+.push-7  { left: 990px;  }
+.push-8  { left: 1110px; }
+.push-9  { left: 1230px; }
+.push-10 { left: 1350px; }
+.push-11 { left: 1470px; }
+.push-12 { left: 1590px; }
+
+
+/* prefix/suffix module ---------------------------------------------------------- */
+[class*="push-"] {position: relative;}
+
+.prefix-1  { left: 120px; }
+.prefix-2  { left: 270px; }
+.prefix-3  { left: 420px; }
+.prefix-4  { left: 570px; }
+.prefix-5  { left: 720px; }
+.prefix-6  { left: 870px; }
+.prefix-7  { left: 990px; }
+.prefix-8  { left: 1110px; }
+.prefix-9  { left: 1230px; }
+.prefix-10 { left: 1350px; }
+.prefix-11 { left: 1470px; }
+.prefix-12 { left: 1590px; }
+
+
+.suffix-1  { left: 120px; }
+.suffix-2  { left: 270px; }
+.suffix-3  { left: 420px; }
+.suffix-4  { left: 570px; }
+.suffix-5  { left: 720px; }
+.suffix-6  { left: 870px; }
+.suffix-7  { left: 990px; }
+.suffix-8  { left: 1110px; }
+.suffix-9  { left: 1230px; }
+.suffix-10 { left: 1350px; }
+.suffix-11 { left: 1470px; }
+.suffix-12 { left: 1590px; }
+
+
+
