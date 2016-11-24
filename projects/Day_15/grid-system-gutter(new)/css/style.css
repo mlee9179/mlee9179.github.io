@@ -1,0 +1,16 @@
+html {
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+}
+
+::-moz-selction {
+  background: #fff;
+  color: #f95318;
+}
+
+::selection {
+  background: #fff;
+  color: #f95318;
+}
