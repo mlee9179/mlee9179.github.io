@@ -1,0 +1,21 @@
+/* Reset */
+html {
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+}
+
+/* Page Layout */
+.row {
+	margin-bottom: 20px;
+}
+
+.box {
+	height: 100px;
+	background-color: #fc414b;
+	color: #fff;
+	text-align: center;
+	line-height: 100px;
+	font-weight: 700;
+}

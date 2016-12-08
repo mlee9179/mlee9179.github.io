@@ -7,9 +7,41 @@
 	<!-- 모바일 우선 적용: 모바일 최적화 -->
 	<!-- meta:viewport (tab 누르기) -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/fluid(flexible)-layout.css">
+<!-- 	<link rel="stylesheet" href="css/fluid(flexible)-layout.css"> -->
+	<link rel="stylesheet" href="css/GS-1200-15-8-15.css">
+	<style>
+		html {
+			overflow-y: scroll;
+		}
+		body {
+			margin-left: 0;
+			font-family: Lato;
+		}
+		.box {
+			height: 100px;
+			line-height: 100px;
+			background: #ccc;
+			color: #fff; 
+		}
+		.box-red { 
+			background: #800; 
+		}
+		.box-blue { 
+			background: #009; 
+		}
+	</style>
 </head>
-<body>
+<body class="show-grid">
 	
+	<div class="container fluid">
+		<div class="row">
+			<div class="col-8 box">
+				<div class="col-3 box box-red"></div>
+				<div class="col-2 box box-blue"></div>
+			</div>
+		</div>
+	</div>
+
+<script src="js/toggleGrid.js"></script>
 </body>
 </html>
