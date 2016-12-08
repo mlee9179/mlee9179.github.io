@@ -1,0 +1,72 @@
+/* css3 Media Quries */
+
+/*
+@규칙 {매체} and {표현식} and {표현식} {
+	CSS Code
+}
+*/
+
+
+/* min-width 최소 :: max-width 최대 */
+/*@media only screen and (min-width: 480px) and (min-height: 600px){
+	body {
+		background: #ff0;
+	}
+}
+*/
+
+html {
+	font-size: 10px;
+}
+
+
+/* Mobile First*/
+
+body {
+	margin: 2rem;
+	/*background: #000;*/ /* black */
+	color: #fff; /* white */
+	font-size: 2rem;
+	transition: font-size 1s ease-out;
+}
+
+.show-grid::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	font-size: 10rem;
+	content: '';
+	background: linear-gradient (
+		90deg,
+		hsla(23, 78%, 54%, 0.3) 50%,
+		hsla(23, 78%, 54%, 0.5) 50%
+		);
+	background-size: 50% 1px;
+}
+
+/* 고해상도 디스플레이 대응 스타일 작성 */
+/* 코드 스니펫*/
+/* command + d 다중선택 */
+/* command + cursor + click 하나씩 여러개 선택하고 싶을때ㅡ */
+@media screen and (min-width: 540px) {
+	body {
+		/*background: #f00;*/ /* red */
+		color: #000; /* black */
+	}
+}
+
+@media screen and (min-width: 920px;) {
+	body {
+		background: #ff0; /* yellow */
+		color: #7045cf; /* purple */
+	}
+}
+
+
+
+
+
+
+
