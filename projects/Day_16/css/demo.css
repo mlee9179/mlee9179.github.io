@@ -1,0 +1,43 @@
+.big-header {
+	position: relative;
+	height: 920px;
+	background: url(../images/brunch.jpg);
+	background-position: center top;
+	background-size: cover;
+}
+
+.big-header h1 {
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1;
+	font-weight: 400;
+	font-size: 54px;
+	font-family: 'Lobster', cursive;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.rwd-crop-container {
+	overflow: hidden;
+	position: relative;
+	height: 500px;
+}
+
+.rwd-crop-content {
+	position: absolute;
+	left: 50%;
+	top: -120px;
+	height: auto;
+	transform: translateX(-50%);
+}
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ 	<meta charset="UTF-8">
+	<title>Isolate Float :: 격리된 플로팅 레이아웃</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
+	<link rel="stylesheet" href="css/isolate-float.css">
+	<link relf="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/rwd-modules.css">
+	<link rel="stylesheet" href="css/demo.css">
+	<style>
+	.box { height: 30px; background: #ff0; }
+	.my-way { height: 200px; background: #6645cf; }
+	.my-way .col-2 { height: 180px; }
+	</style>
+</head>
+<body class="showgrid">
+<!-- 	<div class="my-way">
+		<div class="container">
+			<div class="row">
+				<div class="box col-2">
+					<img class="rwd-image" 
+					src="images/background.jpg"
+					srcset="images/background2x.jpg 2x, images/background2x.jpg 3x"
+					alt="" 
+					width="400" 
+					height="200">
+				</div>
+				<div class="box col-2">
+					<img class="rwd-image" 
+					src="http://placehold.it/400x200/000/fff" 
+					alt="" 
+					width="400" 
+					height="200">
+				</div>
+				<div class="box col-2">content</div>
+				<div class="box col-2">content</div>
+			</div>
+		</div>
+	</div> -->
+
+<!-- 	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="two-girls rwd-bg">
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="shoes rwd-bg">
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+<!-- <div class="big-header">
+	<h1>One cannot think well, love well,<br>sleep well, if one has not dined well.</h1>
+</div> -->
+
+<div class="rwd-crop-container">
+	<img src="images/street.jpg" alt="street" class="rwd-crop-content">
+</div>
+
+	<div class="container">
+		<div class="isolate row">
+			<div class="box col-1 order-8">col 1</div>
+			<div class="box col-1 order-7">col 2</div>
+			<div class="box col-1 order-6">col 3</div>
+			<div class="box col-1 order-5">col 4</div>
+			<div class="box col-1 order-4">col 5</div>
+			<div class="box col-1 order-3">col 6</div>
+			<div class="box col-1 order-2">col 7</div>
+			<div class="box col-1 order-1">col 8</div>
+		</div>
+	</div>
+<script src="js/toggleGrid.js"></script>
+</body>
+</html>
